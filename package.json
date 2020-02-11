@@ -1,0 +1,43 @@
+{
+  "name": "clean_architecture_sample",
+  "version": "1.0.0",
+  "description": "Sample project of frontend Clean Architecture using React.js and jest.",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "tiger <rezwanul.cse@gmail.com> (https://github.com/rezwanul-haque)",
+  "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/__tests__/*.+(ts|tsx|js)"
+    ]
+  },
+  "dependencies": {
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/react": "^16.9.2",
+    "jest": "^24.9.0",
+    "parcel": "^1.12.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
+}
