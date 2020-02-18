@@ -28,9 +28,19 @@
     ]
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "aws-amplify": "^2.2.5",
+    "axios": "^0.18.0",
+    "bulma": "^0.7.2",
+    "particles-bg": "^2.4.7",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-compare-image": "^2.0.4",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
